@@ -2,19 +2,25 @@
 
 int main() {
  
-    int carta = 1;
-    char estado = 'A';
-    char codigo[10] = "A01";
-    char cidade[10] = "Alagoas";
-    int população;
-    float área;
-    float PIB;
-    int turismo;
+    int carta;
+    char estado;
+    char codigo[5];
+    char cidade[10];
 
-    printf("Carta: %d\nEstado: %c\nCódigo: %s\nCidade: %s\n", carta, estado, codigo, cidade);
+    printf("Carta: ");
+    scanf("%d", &carta);
 
+    printf("estado: ");
+    scanf("%s", &estado);
 
+    printf("Código: ");
+    scanf("%s", &codigo);
 
+    printf("cidade: ");
+    scanf(" %s", &cidade);
 
+    printf("\ncarta: %d\nEstado: %s\nCódigo: %s\nCidade: %s", carta, estado, codigo, cidade);
+
+    return 0;
 
 }
