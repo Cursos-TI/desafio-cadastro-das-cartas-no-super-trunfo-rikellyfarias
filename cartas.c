@@ -54,7 +54,7 @@ int main() {
     scanf(" %c", &turismo2);
 
     printf("\nCarta %d\nEstado: %c\nCódigo da Carta: %s\nCidade: %s", carta2, estado2, codigo2, cidade);
-    printf("População: %d\nÁrea: %f km²\nPIB: %f bilhões de reais\nNúmero de Pontos Turísticos: %c", populacao2, area2, PIB2, turismo2);
+    printf("População: %d\nÁrea: %f km²\nPIB: %f bilhões de reais\nNúmero de Pontos Turísticos: %c\n", populacao2, area2, PIB2, turismo2);
     //printf irá imprimir as informações que o usúario adicionou no scanf na carta 2
 
     return 0;
