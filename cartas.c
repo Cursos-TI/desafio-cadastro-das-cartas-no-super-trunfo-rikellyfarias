@@ -12,6 +12,7 @@ int main() {
     int turismo;
   
     printf("Carta: %d\nEstado: %c\nCódigo da Carta: %s\nCidade: %s\n", carta, estado, codigo, cidade);
+    //printf irá imprimir as váriaveis 
 
     printf("População: ");
     scanf("%d", &populacao);
@@ -27,6 +28,7 @@ int main() {
 
     printf("\nCarta: %d\nEstado: %c\nCódigo da Carta: %s\nCidade: %s\n", carta, estado, codigo, cidade);
     printf("População: %d\nÁrea: %f km²\nPIB: %f bilhões de reais\nNúmero de Pontos Turísticos: %c\n", populacao, area, PIB, turismo);
+    //printf irá imprimir as variaveis e as informações que o usúario adicionou no scanf na carta 1
 
     int carta2 = 2;
     char estado2 = 'B';
